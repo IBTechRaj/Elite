@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,16 +8,16 @@ function Navbar() {
         <div className="container">
           <div className="navbar-header">
             <Link className="navbar-brand text-white text-lg brand-text" to="/">
-              <h1>Recipe Store</h1>
+              <h3>EliteConvey</h3>
             </Link>
           </div>
           <ul className="navbar-nav ml-auto text-light d-inline-block">
-            <li className="nav-item d-inline-block mr-4">
+            {/* <li className="nav-item d-inline-block mr-4">
               <i className="fab fa-react fa-5x" id="react-logo" />
             </li>
             <li className="nav-item d-inline-block mr-4">
               <i className="fab fa-redux fa-5x" id="redux-logo" />
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

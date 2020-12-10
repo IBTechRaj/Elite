@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
@@ -11,13 +11,13 @@ function Footer() {
               Rajasekhar K
             </span>
             , Using <i className="fab fa-react" /> React JS &amp; Redux JS
-            integrated with external recipe data API
+            {/* integrated with external recipe data API */}
             <a
               href="http://www.themeal.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              TheMealDB
+              for Applications Beyond
             </a>
           </div>
         </div>
