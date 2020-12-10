@@ -14,6 +14,10 @@ import Footer from "./components/Footer";
 import store from "./components/store";
 import Suppliers from "./containers/Suppliers";
 import Products from "./containers/Products";
+import SupplierList from "./containers/SupplierList";
+// import ProductList from "./containers/ProductList";
+import SupplierForm from "./containers/SupplierForm";
+// import ProductForm from "./containers/ProductForm";
 
 class App extends Component {
   render() {
@@ -36,9 +40,31 @@ class App extends Component {
               />
               <Route
                 exact
-                path="/Suppliers"
+                path="/SupplierList"
                 render={props => (
-                  <Suppliers
+                  <SupplierList
+                  // {...props}
+                  // handleLogout={this.handleLogout}
+                  // loggedInStatus={this.state.isLoggedIn}
+                  />
+                )}
+              />
+              {/* <Route
+                exact
+                path="/ProductList"
+                render={props => (
+                  <ProductList
+                  // {...props}
+                  // handleLogout={this.handleLogout}
+                  // loggedInStatus={this.state.isLoggedIn}
+                  />
+                )}
+              /> */}
+              <Route
+                exact
+                path="/SupplierForm"
+                render={props => (
+                  <SupplierForm
                   // {...props}
                   // handleLogout={this.handleLogout}
                   // loggedInStatus={this.state.isLoggedIn}

@@ -32,7 +32,7 @@ const Home = props => {
         ) : ( */}
         <div>
           <div className="p-3 mb-2 mb-3 bg-dark text-white">
-            <Link to="/Suppliers" style={{ color: "white" }}>
+            <Link to="/SupplierList" style={{ color: "white" }}>
               Manage Suppliers
             </Link>
           </div>
